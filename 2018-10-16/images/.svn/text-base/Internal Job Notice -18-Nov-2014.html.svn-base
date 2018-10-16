@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pyco Internal Job</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+.ExternalClass * { line-height: 12px; }
+.appleLinksHead a { color: #000001; font-size: 11px; text-decoration: none; }
+.appleLinksDate a { color: #0d85bf; font-size: 12px; text-decoration: none; }
+.appleLinksML a { color: #a0a0a0; font-size: 10px; }
+.appleLinksML { color: #a0a0a0; font-size: 10px; text-decoration: none; }
+div, p, a, li, td { -webkit-text-size-adjust: none; }
+</style>
+</head>
+<body bgcolor="#ffffff" style="font-family: Arial, Helvetica, sans-serif; margin: 0;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="background: #ffffff; font-family: Arial, Helvetica, sans-serif; margin: 0 auto;">
+    <tr>
+        <td>
+            <table width="600" border="0" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+					<td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td>
+				</tr>
+                <tr>
+                    <td height="1" bgcolor="#cccccc"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <table width="600" border="0" cellpadding="0" cellspacing="0" align="center">
+                            <tr>
+                                <td width="1" bgcolor="#cccccc"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td>
+                                <td width="598" bgcolor="#ffffff">
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                        <tr>
+                                            <td bgcolor="#f1f1f1">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="100"><a href="http://www.pyramid-consulting.com/home" target="_blank"><img
+                                                                src="images/logo.jpg" width="100" height="99" alt="" border="0" style="display: block;" /></a></td>
+                                                        <td><img src="images/weekly.jpg" border="0" alt="Weekly Internal Job Notice" width="499" height="99" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#f1f1f1"><a href="http://www.pyramid-consulting.com/jobs/" target="_blank"><img src="images/banner.jpg" border="0" alt="" width="598" height="232" style="display: block;" /></a></td>
+                                        </tr>
+                                        <tr><td><img src="images/fun-working.jpg" border="0" alt="" width="598" height="76" style="display: block;" /></td></tr>
+                                        <tr><td><img src="images/hot-position.jpg" border="0" alt="" width="598" height="37" style="display: block;" /></td></tr>
+                                        <tr><td><img src="images/apply-pyco.jpg" border="0" alt="" width="598" height="37" style="display: block;" /></td></tr>
+										<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+										<tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukbNPN*B7Np7B8fj4aoaXQOL28nfHFDdeyBuJQlbWv*uIA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">
+Java Solutions Architect
+</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukbNPN*B7Np7B8fj4aoaXQOL28nfHFDdeyBuJQlbWv*uIA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukbNPN*B7Np7B8fj4aoaXQOL28nfHFDdeyBuJQlbWv*uIA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>24,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ1kFMrSpojak7V3IszJXo00-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Java Technical Architect
+</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ1kFMrSpojak7V3IszJXo00-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ1kFMrSpojak7V3IszJXo00-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>8,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000"></font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+      <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukZQB4Co.6gKq.C0RqYMgYfJN4Gw8.sAsD5VcbD0M0dGmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Java Technical Architect (CQ5)
+
+</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukZQB4Co.6gKq.C0RqYMgYfJN4Gw8.sAsD5VcbD0M0dGmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukZQB4Co.6gKq.C0RqYMgYfJN4Gw8.sAsD5VcbD0M0dGmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>8,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000"></font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbglrlGKZO70@DS2E717YQ7X9Ld.dik@Pm64G6xFIbgLg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Java Technical Architect (Hybris)
+                                                        </a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbglrlGKZO70@DS2E717YQ7X9Ld.dik@Pm64G6xFIbgLg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbglrlGKZO70@DS2E717YQ7X9Ld.dik@Pm64G6xFIbgLg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>8,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbsUVjZqd8cQ4LdjS5Ye4CSVz3Cx@tRZ8BhJb@JWTFKMA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Sitecore Expert
+                                                        </a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbsUVjZqd8cQ4LdjS5Ye4CSVz3Cx@tRZ8BhJb@JWTFKMA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbsUVjZqd8cQ4LdjS5Ye4CSVz3Cx@tRZ8BhJb@JWTFKMA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>8,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJw7X*eywwee07V3IszJXo00-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Java Principal Developer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJw7X*eywwee07V3IszJXo00-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">03</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJw7X*eywwee07V3IszJXo00-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>5,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukYO7CGUbeG*ufaIY8y6UaeJZo7SqTw18FX6j.QToAIs3w--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Yepex Senior Java Developer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukYO7CGUbeG*ufaIY8y6UaeJZo7SqTw18FX6j.QToAIs3w--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukYO7CGUbeG*ufaIY8y6UaeJZo7SqTw18FX6j.QToAIs3w--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>3,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukaLMUWCJq@j69Cl@9yjQZoJwsBnpSc1lAkl3lU74IKlnA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Delivery Manager</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukaLMUWCJq@j69Cl@9yjQZoJwsBnpSc1lAkl3lU74IKlnA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukaLMUWCJq@j69Cl@9yjQZoJwsBnpSc1lAkl3lU74IKlnA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>12,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+										<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></tr>
+                                       <!--  <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ8Lu4PuOCokooszJ*mWCevs-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Principal Business Analyst</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ8Lu4PuOCokooszJ*mWCevs-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ8Lu4PuOCokooszJ*mWCevs-&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>5,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr> -->
+                                                                            <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukZHJzPh7ivutK.wxSHqKmD2SMmSJDTEYjBrIrLdkD4dmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=%23000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Principal Android Developer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukZHJzPh7ivutK.wxSHqKmD2SMmSJDTEYjBrIrLdkD4dmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=%23000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">02</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukZHJzPh7ivutK.wxSHqKmD2SMmSJDTEYjBrIrLdkD4dmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=%23000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>5,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEuka8ESRfYXp7e6GEtJeio41KGQ.3npog@yuc@@rxV3bc@w--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Principal iOS Developer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEuka8ESRfYXp7e6GEtJeio41KGQ.3npog@yuc@@rxV3bc@w--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">02</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEuka8ESRfYXp7e6GEtJeio41KGQ.3npog@yuc@@rxV3bc@w--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>5,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukbg8dX.sfYt18Q9BYinlTOrSMmSJDTEYjBrIrLdkD4dmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Principal QA Consultant (background: Project Manager)</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukbg8dX.sfYt18Q9BYinlTOrSMmSJDTEYjBrIrLdkD4dmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukbg8dX.sfYt18Q9BYinlTOrSMmSJDTEYjBrIrLdkD4dmg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>5,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					  <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukYa7KtnM4DBpQflld90bOGFwsBnpSc1lAkl3lU74IKlnA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior Project Manager</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukYa7KtnM4DBpQflld90bOGFwsBnpSc1lAkl3lU74IKlnA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">02</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukYa7KtnM4DBpQflld90bOGFwsBnpSc1lAkl3lU74IKlnA--&bgrndcolor=#44BBEC&font=Verdana&headercolor=000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>8,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbhHbAXZIvIaMfugFEIwmLxX9Ld.dik@Pm64G6xFIbgLg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior QA Engineer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbhHbAXZIvIaMfugFEIwmLxX9Ld.dik@Pm64G6xFIbgLg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukbhHbAXZIvIaMfugFEIwmLxX9Ld.dik@Pm64G6xFIbgLg--&bgrndcolor=#44BBEC&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>3,000,000 VND</b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zCHNW6todkixEYQuFtt0oEE-
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior Recruitment Consultant</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zCHNW6todkixEYQuFtt0oEE-
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zCHNW6todkixEYQuFtt0oEE-
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEuka*YT4I7o0Lgws9YRel.E2JueOaGEGwUpkNvxDex4pLuw--&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">English Teacher</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEuka*YT4I7o0Lgws9YRel.E2JueOaGEGwUpkNvxDex4pLuw--&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEuka*YT4I7o0Lgws9YRel.E2JueOaGEGwUpkNvxDex4pLuw--&font=Verdana&headercolor=#000000&embedsource=Embed
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr><td><img src="images/apply-atlas.jpg" border="0" alt="" width="598" height="37" style="display: block;" /></td></tr>
+                                        
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ6A.YzC9Zu4YFdFU.DO4P*E-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Java Team Lead</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ6A.YzC9Zu4YFdFU.DO4P*E-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">03</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ6A.YzC9Zu4YFdFU.DO4P*E-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>10,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+										<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukY3p5AJstWHt74nhz7eBA9UwsBnpSc1lAkl3lU74IKlnA&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior Java Engineer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukY3p5AJstWHt74nhz7eBA9UwsBnpSc1lAkl3lU74IKlnA&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">10</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3@g4ZEukY3p5AJstWHt74nhz7eBA9UwsBnpSc1lAkl3lU74IKlnA&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>3,000,000 - 6,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zIRx2dCwfI5qT7CI79Dioew-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">QA Lead</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zIRx2dCwfI5qT7CI79Dioew-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zIRx2dCwfI5qT7CI79Dioew-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>10,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ5JvNH3cS9Nb0niW1oquPq4-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior QP Engineer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ5JvNH3cS9Nb0niW1oquPq4-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">03</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ5JvNH3cS9Nb0niW1oquPq4-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>3,000,000 - 6,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukYQLHL.lh05sM8vxPerpxtCSMmSJDTEYjBrIrLdkD4dmg&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Principal Product Manager
+                                                        </a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukYQLHL.lh05sM8vxPerpxtCSMmSJDTEYjBrIrLdkD4dmg&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukYQLHL.lh05sM8vxPerpxtCSMmSJDTEYjBrIrLdkD4dmg&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>18,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ75NJMnbhB3GyCRkRgtcdYE-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior Product Manager</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ75NJMnbhB3GyCRkRgtcdYE-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">01</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ75NJMnbhB3GyCRkRgtcdYE-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>18,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zFFuJcs6VLMg0EIJAVksoPY-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior UX Designer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zFFuJcs6VLMg0EIJAVksoPY-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">02</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/ViewJob.na?digest=UwUDXKwuGYRbJd8wJtw9zFFuJcs6VLMg0EIJAVksoPY-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>15,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+					<tr><td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ8M8ON.PpfCk6DbnMdaV80E-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Performance Engineer </a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ8M8ON.PpfCk6DbnMdaV80E-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">02</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=pn*wx9*4V..b4dgG06N6PlDa*myxRPFtEgogI9kBaBrTlascBgvYJ8M8ON.PpfCk6DbnMdaV80E-&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>3,000,000 - 6,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+ 					<tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="30">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="19"><img src="images/dot.png" border="0" alt="" width="19" height="1" style="display: block;" /></td>
+                                                        <td style="text-align: left;" width="300"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukZs.23V89kDcgbhk2Wf3VsIVz3Cx*tRZ8BhJb*JWTFKMA&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">Senior Front End Developer</a></font></td>
+                                                        <td style="text-align: center;" width="96"><font face="Verdana, Geneva, sans-serif" color="#666666" size="2" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukZs.23V89kDcgbhk2Wf3VsIVz3Cx*tRZ8BhJb*JWTFKMA&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #666666; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;">04</a></font></td>
+                                                        <td style="text-align: right;" width="170"><font face="Verdana, Geneva, sans-serif" color="#44bbec" size="2" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;"><a href="https://recruit.zoho.com/ats/EmbedIndResult.hr?jodigest=q24XUBThsiOGO4jrFTvNyfjzcNBkwyVwPF3*g4ZEukZs.23V89kDcgbhk2Wf3VsIVz3Cx*tRZ8BhJb*JWTFKMA&bgrndcolor=44BBEC&font=Verdana&headercolor=000000&embedsource
+" target="_blank" style="color: #44bbec; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:30px;text-decoration: none;"><b>3,000,000 - 6,000,000 VND <font color="#ff0000" size="2" style="color: #ff0000">(*)</font></b></a></font></td>
+                                                        <td width="14"><img src="images/dot.png" border="0" alt="" width="14" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+					
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr><td height="25"><img src="images/dot.png" border="0" alt="" width="1" height="25" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="16" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"><img src="images/arrow.jpg" border="0" alt="" width="33" height="16" style="display: block;" /></td>
+                                                        <td width="438"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif; font-weight: normal;line-height:16px">Special referral bonus for Pyramid Jobs:</font></td>
+                                                        <td width="27"><img src="images/dot.png" border="0" alt="" width="27" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="16" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"></td>
+                                                        <td width="438"><font face="Verdana, Geneva, sans-serif" color="#ff0000" size="2" style="color: #ff0000; font-size: 11px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;">-&nbsp;&nbsp;(*)&nbsp;<font face="Verdana, Geneva, sans-serif" color="#ff0000" size="2" style="color: #ff0000; font-size: 11px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;">Effective</font> from 30 Oct 2014 to 30 Nov 2014</font></td>
+                                                        <td width="27"><img src="images/dot.png" border="0" alt="" width="27" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+
+
+                                        <tr><td height="25"><img src="images/dot.png" border="0" alt="" width="1" height="25" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="16" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"><img src="images/arrow.jpg" border="0" alt="" width="33" height="16" style="display: block;" /></td>
+                                                        <td width="438"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif; font-weight: normal;line-height:16px">Special referral bonus for Atlassian Jobs:</font></td>
+                                                        <td width="27"><img src="images/dot.png" border="0" alt="" width="27" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="16" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"></td>
+                                                        <td width="438"><font face="Verdana, Geneva, sans-serif" color="#ff0000" size="2" style="color: #ff0000; font-size: 11px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;">-&nbsp;&nbsp;(*)&nbsp;<font face="Verdana, Geneva, sans-serif" color="#ff0000" size="2" style="color: #ff0000; font-size: 11px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;">Effective</font> from 31 Oct 2014 to 31 Dec 2014</font></td>
+                                                        <td width="27"><img src="images/dot.png" border="0" alt="" width="27" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="16" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"></td>
+                                                        <td width="465"><font face="Verdana, Geneva, sans-serif" color="#ff0000" size="2" style="color: #ff0000; font-size: 11px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;">-&nbsp;&nbsp;&nbsp;Bonus for referrals with contact details and brief information only (without CV) is 30% of the special bonus</font></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td></tr>
+                                        <tr><td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td height="16" valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"><img src="images/arrow.jpg" border="0" alt="" width="33" height="16" style="display: block;" /></td>
+                                                        <td width="438"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;">For other job openings, please visit the <a href="http://www.pyramid-consulting.com/home/careers/jobs-at-pyramid-consulting.html" target="_blank" style="color: #19adea; font-size: 11px; font-family: Arial, Helvetica, Sans-Serif;line-height:16px;text-decoration: underline;">PYCO Website</a></font></td>
+                                                        <td width="27"><img src="images/dot.png" border="0" alt="" width="27" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="33" valign="top"><img src="images/arrow.jpg" border="0" alt="" width="33" height="16" style="display: block;" /></td>
+                                                        <td width="438"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 13px; font-family: Arial, Helvetica, Sans-Serif;line-height:22px;">For further information about referral policy, please view <a href="https://ssl.pyramid-consulting.com/docs/pages/viewpage.action?title=Candidate+Referral+Bonus+Policy&spaceKey=HR" target="_blank" style="color: #19adea; font-size: 13px; font-family: Arial, Helvetica, Sans-Serif;line-height:22px;text-decoration: underline;">here</a><br /><br /><font color="#ff0000" style="color:#ff0000;"></font></font></td>
+                                                        <td width="27"><img src="images/dot.png" border="0" alt="" width="27" height="1" style="display: block;" /></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr><td height="20"><img src="images/dot.png" border="0" alt="" width="1" height="20" style="display: block;" /></td></tr>
+                                        <tr><td height="1" bgcolor="#f1f1f1"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td></tr>
+                                        <tr>
+                                            <td bgcolor="#F0F2F1">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="131"><img src="images/email.jpg" border="0" alt="" width="131" height="36" style="display: block;" /></td>
+                                                        <td width="467"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:36px;">Pyco recruitment team: <a href="mailto:pyco-rec@pyramid-consulting.com" target="_blank" style="color: #19adea; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:36px;text-decoration: none;">pyco-rec@pyramid-consulting.com</a></font></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                            <td bgcolor="#F0F2F1">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="131"><img src="images/email.jpg" border="0" alt="" width="131" height="36" style="display: block;" /></td>
+                                                        <td width="467"><font face="Verdana, Geneva, sans-serif" color="#000001" size="2" style="color: #000001; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:36px;">Atlassian recruitment team: <a href="mailto:recruitment-vn@atlassian.com" target="_blank" style="color: #19adea; font-size: 12px; font-family: Arial, Helvetica, Sans-Serif;line-height:36px;text-decoration: none;">recruitment-vn@atlassian.com</a></font></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="149">
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                                                    <tr>
+                                                        <td width="150"><a href="http://www.facebook.com/PyramidConsultingVietnam" target="_blank"><img src="images/bot-logo1.jpg" border="0" alt="" width="150" height="149" style="display: block;" /></a></td>
+                                                        <td width="150"><a href="http://www.pyramid-consulting.com/" target="_blank"><img src="images/bot-logo2.jpg" border="0" alt="" width="150" height="149" style="display: block;" /></a></td>
+                                                        <td width="149"><a href="https://ssl.pyramid-consulting.com/docs/spacedirectory/view.action" target="_blank"><img src="images/bot-logo3.jpg" border="0" alt="" width="149" height="149" style="display: block;" /></a></td>
+                                                        <td width="150"><a href="http://www.linkedin.com/company/642427" target="_blank"><img src="images/bot-logo4.jpg" border="0" alt="" width="150" height="149" style="display: block;" /></a></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="1" bgcolor="#cccccc"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="1" bgcolor="#cccccc"><img src="images/dot.png" border="0" alt="" width="1" height="1" style="display: block;" /></td>
+                </tr>
+				<tr>
+					<td height="15"><img src="images/dot.png" border="0" alt="" width="1" height="15" style="display: block;" /></td>
+				</tr>
+			</table>
+        </td>
+    </tr>
+</table>
+</body>
+</html><html><head></head><body></body></html><html><head></head><body></body></html>
